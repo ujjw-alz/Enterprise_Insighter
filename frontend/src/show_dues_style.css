@@ -1,0 +1,24 @@
+/* showdues_style.css */
+
+.due-container {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .due-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .person-name {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .amount-due {
+    font-size: 16px;
+    color: #666;
+  }
+  

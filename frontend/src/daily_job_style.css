@@ -1,0 +1,45 @@
+/* dailyjob_style.css */
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.form {
+  margin-bottom: 20px;
+}
+
+.product-list {
+  margin-top: 20px;
+}
+
+.product-item {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.product-info {
+  font-weight: bold;
+}
+
+.name {
+  margin-top: 20px;
+  font-weight: bold;
+}

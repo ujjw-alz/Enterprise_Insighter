@@ -1,0 +1,28 @@
+.delete-person-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.delete-person-form input {
+    width: 250px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.delete-person-form button {
+    padding: 10px 20px;
+    background-color: #dc3545; /* Use a danger color for the delete action */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.delete-person-form button:hover {
+    background-color: #c82333; /* Darken the background color on hover */
+}
